@@ -1,5 +1,9 @@
 # ML-in-Criminology-OBTS-data
 
+The Offender Based Transaction Statistics (OBTS) series was designed by the Bureau of Justice Statistics to collect information tracking adult offenders from the point of entry into the criminal justice system (typically by arrest), through final disposition, regardless of whether the offender is convicted or acquitted. Collected by individual states from existing data, the datasets include all cases that reached disposition during the calendar year. Using the individual adult offender as the unit for analysis, selected information is provided about the offender and his or her arrest, prosecution, and court disposition. Examples of variables included are arrest and level of arrest charge, date of arrest, charge filed by the prosecutor, prosecutor or grand jury disposition, type of counsel, type of trial, court disposition, sentence type, and minimum and maximum sentence length. Dates of disposition of each stage of the process allow for tracking of time spent at each stage.
+
+Source: https://www.icpsr.umich.edu/web/NACJD/series/78#:~:text=Offender%20Based%20Transaction%20Statistics%20(OBTS)%20studies%20are%20designed%20to%20collect,offender%20is%20convicted%20or%20acquitted.
+
 ## Comments on EDA and Data Preprocessing
 
 Our objective is to track cases and identify institutional trajectories, i.e., movements between elements of the criminal justice system, such as police, prosecution, pre-trial hearings, and court hearings. For this purpose, we performed some data relabelling.
